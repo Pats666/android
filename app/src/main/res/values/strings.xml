@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="a1">My TextView1</string>
+    <string name="a2">My TextView2</string>
+    <string name="a3">My TextView3</string>
 </resources>
