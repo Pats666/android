@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ButtonActivity">
+
+    <Button
+        android:id="@+id/b_1"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#FF0000"
+        android:text="按钮1"
+        android:textColor="#311B92"
+        android:textSize="20dp"></Button>
+
+    <Button
+        android:id="@+id/b_2"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/b_1"
+        android:layout_marginTop="10dp"
+        android:background="#FF0000"
+        android:text="按钮2"
+        android:textColor="#311B92"
+        android:textSize="20dp"></Button>
+
+    <Button
+        android:id="@+id/b_3"
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/b_2"
+        android:layout_marginTop="10dp"
+        android:background="#0000FF"
+        android:text="按钮3"
+        android:onClick="showToast"
+        android:textColor="#283593"
+        android:textSize="20dp"></Button>
+</RelativeLayout>

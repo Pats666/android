@@ -10,6 +10,10 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     private Button mBtnTextView;
+    private Button B_2;
+    private Button B_3;
+    private Button B_4;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,6 +23,31 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,TextViewActivity.class);
+                startActivity(intent);
+            }
+        });
+        B_2 = findViewById(R.id.b_2);
+        B_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,ButtonActivity.class);
+                startActivity(intent);
+            }
+        });
+        B_3 = findViewById(R.id.b_3);
+        B_3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,EdActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        B_4 = findViewById(R.id.b_4);
+        B_4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,ListActivity.class);
                 startActivity(intent);
             }
         });

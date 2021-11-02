@@ -10,4 +10,24 @@
         android:layout_height="wrap_content"
         android:text="hello"
         > </Button>
+    <Button
+        android:id="@+id/b_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="to_buttonActivity"
+        ></Button>
+
+    <Button
+        android:id="@+id/b_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="to_edtorActivity"
+        ></Button>
+
+    <Button
+        android:id="@+id/b_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="to_listActivity"
+        ></Button>
 </LinearLayout>

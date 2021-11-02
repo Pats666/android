@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".ListItem"
+            android:exported="false" />
+        <activity
+            android:name=".ListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecycleView"
+            android:exported="false" />
+        <activity
+            android:name=".EdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ButtonActivity"
+            android:exported="false" />
+        <activity
             android:name=".TextViewActivity"
             android:exported="false" />
         <activity
