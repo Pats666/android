@@ -9,6 +9,7 @@ import android.widget.Button;
 
 import com.example.myapplication.recycle.RecycleActivity;
 
+
 public class MainActivity extends AppCompatActivity {
 
     private Button mBtnTextView;
@@ -63,5 +64,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
     }
 }

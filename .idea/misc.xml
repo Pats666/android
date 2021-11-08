@@ -9,8 +9,11 @@
         <entry key="app/src/main/res/layout/activity_list.xml" value="0.2954898911353033" />
         <entry key="app/src/main/res/layout/activity_list_item.xml" value="0.4053497942386831" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+<<<<<<< HEAD
         <entry key="app/src/main/res/layout/activity_recycle.xml" value="0.11510416666666666" />
         <entry key="app/src/main/res/layout/activity_recycle_item.xml" value="0.21" />
+=======
+>>>>>>> f6043ec7a7544d640d323fcad705ba762cf65eb0
         <entry key="app/src/main/res/layout/activity_recycle_view.xml" value="0.18697916666666667" />
         <entry key="app/src/main/res/layout/activity_text_view.xml" value="0.25" />
       </map>
